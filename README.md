@@ -1,4 +1,4 @@
-# Nome schema
+# MC-OL48iCONFTR
 ![electric_panel_icon](res/el_icon_4.jpg)
 ## Schema per quadro elettrico per ascensore
 
@@ -23,7 +23,9 @@ Tipo di operatore porte
 Tipo di avviamento (VVVF, soft starter con specifiche modelli e marche).
 
 ### Potenza massima motore / taglie compatibili
-Inserire kw motore e specifiche varie legate alla potenza e/o l'elenco di taglie dei quadri compatibili con questo schema.
+Taglia|Potenza
+---|---
+SXX|XCV-XXXVAC
 
 ### Allarme
 Tipo di allarme
