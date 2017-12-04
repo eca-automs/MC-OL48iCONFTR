@@ -6,32 +6,45 @@
 MCPX2015-SMD - PER16B-SMD
 
 ### Tipo impianto
-Fune
+Oledinamico.
 
 ### Manovra
-Tipo di manovra
+Universale.
 
 ### Collegamento vano / cabina
 Vano|Cabina
 ---|---
-tipo collegamento vano|  tipo collegamento cabina
+parallelo|  parallelo
 
 ### Operatore porte
-Tipo di operatore porte
+48VCC.
 
 ### Avviamento / controllo motore
-Tipo di avviamento (VVVF, soft starter con specifiche modelli e marche).
+Diretto, soft-starter (SMS-start), stella triangolo.
+Centralina Moris Bucher con schede iCON - iVALVE
 
 ### Potenza massima motore / taglie compatibili
+#### Avviamento diretto
 Taglia|Potenza
 ---|---
-SXX|XCV-XXXVAC
+S40|14CV-230VAC/22CV-400VAC
+
+#### Avviamento stella-triangolo
+Taglia|Potenza
+---|---
+S70|24CV-230VAC/43CV-400VAC
+
+
+#### Avviamento soft-starter
+Taglia|Potenza
+---|---
+S60|17CV-230VAC/35CV-400VAC
 
 ### Allarme
-Tipo di allarme
+12VDC, legge 13.
 
 ### Emergenza
-Tipo di emergenza
+Completa con riapertura porte a 48VCC.
 
 ### Opzioni
-Elenco opzioni aggiuntive (emendamento A3, fossa o testata ridotta etc..)
+Gestione fossa e testata ridotta.
