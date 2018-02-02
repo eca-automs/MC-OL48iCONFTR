@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-257.126592840943
+232.6922847736161
  22
 144.502232477635
  13
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 279.9427348110959
  41
-2.139884393063584
+1.790751445086705
  42
 50
  43
@@ -2357,7 +2357,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2371,7 +2371,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2385,7 +2385,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2399,7 +2399,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -8321,7 +8321,7 @@ AcDbMText
  72
     1
   1
-SCHEMA MC-OL48iCONFTR\P\PVERSIONE 1.0.1
+SCHEMA MC-OL48iCONFTR\P\PVERSIONE 2.0.0
   7
 standard
 210
