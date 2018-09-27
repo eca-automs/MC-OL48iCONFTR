@@ -3,3 +3,4 @@
 \#*.dxf
 
 node_modules
+ecadoc/download
