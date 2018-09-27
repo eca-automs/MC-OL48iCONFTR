@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+- '8.9'
+
+script:
+- npm run build
+
+branches:
+  only:
+    - master
+    - /^v[0-9]+\.[0-9]+\.[0-9]+-(alpha|beta|rc)\.[0-9]+$/
+    - /^v[0-9]+\.[0-9]+\.[0-9]+$/
+
+deploy:
+  - provider: s3
+    skip_cleanup: true
+    upload-dir: MC-OL48iCONFTR
+    local_dir: ecadoc
+    bucket: "$PRODUCTION_BUCKET"
+    region: "$AWS_REGION"
+    acl: private
+    on:
+      tags: true
+      condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$
+
+notifications:
+  # webhooks:
+  #   urls:
+  #     - secure: "encrypted webhook url here"
+  #   on_start: always
